@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bootstrap components">
+  <meta name="author" content="Rozario Gurraj" />
+  <title>Websites Analyze</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <!-- Nav goes here -->
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="#web" >Web Geeks</a>
+      <a href="#wetech">WEtech Alliance</a>
+      <a href="#po">PLASTIC OMNIUM</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
+  <main>
+    <h3>Bostrap components Accordion</h3>
+    <!-- Content goes here -->
+    <main class="container bg-info">
+      <div class="accordion pt-4" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+              id="web"
+            >
+            Web Geeks
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <h6 class="col-12"> Businesses website Analyze</h6>
+              <h2 class="col-12">Web Geeks</h2>
+              <div class="wrapper">
+                <div class="row g-3">
+                  <h3 class="col-md-6">A desktop and mobile device point of view</h3>
+                  <ul>
+                    <li class="list-group-item">This business is not using any of the responsive method.</li>
+                    <li class="list-group-item">They are have embeded images in CSS file using jquery.</li>
+                    <li class="list-group-item">At 1060px resolutions, they have the layout of their site changes.</li>
+                    <li class="list-group-item">At somepoint the layout is very amazing for the mobile view. They have just changed Menu style(Hambuger Used), font size and image size,nothing special.</li>
+                    <li class="list-group-item">From my point of view I would set make it more attractive for mobile and desktop.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+              id="WEtech"
+            >
+            WEtech Alliance
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <h4 class="col-12"> Businesses website Analyze</h4>
+              <h2 class="col-12">WEtech Alliance</h2>
+              <div class="wrapper">
+                <div class="row">
+                  <h3 class="col-8">A desktop and mobile device point of view</h3>
+                  <ul>
+                    <li class="col-6 list-group-item">This business is using some adaptive design and responsive design combination of them.</li>
+                    <li class="col-6 list-group-item">They are smiply using < img > tag for the images.</li>
+                    <li class="col-6 list-group-item">At 960px resolutions, they have the layout of their site changes.</li>
+                    <li class="col-6 list-group-item">the layout is very very adoptive for both mobile and Desktop view. Just bworser is make them responsive at somepoint.</li>
+                    <li class="col-6 list-group-item">I would really adopt one of the responsive method from our lectures and make this website more responsive and attractive.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+  </main>
+  <hr>
+  <h3>Bostrap components card</h3>
+  <div class="card">
+    <img style="height: auto; width: 320px;" src="img/plastic_omnium_logo.webp" class="card-img-top" alt="logo">
+  
+    <div class="card-body">
+      <h5 class="card-title">PLASTIC OMNIUM</h5>
+      <h4 class="col-12"> Businesses website Analyze</h4>
+          <div class="wrapper">
+            <div class="row">
+              <h3 class="col-8">A desktop and mobile device point of view</h3>
+              <ul>
+                <li class="col-6 list-group-item">This business is not using any of the responsive method.</li>
+                <li class="col-6 list-group-item">They are have embeded images in CSS file using jquery.</li>
+                <li class="col-6 list-group-item">At 1080px resolutions, they have the layout of their site changes.</li>
+                <li class="col-6 list-group-item">At somepoint the layout is very basic for the mobile view. They have just changed Menu style, font size and image size,nothing special.</li>
+                <li class="col-6 list-group-item">From my point of view I would set make it more attractive for mobile and desktop.</li>
+              </ul>
+            </div>
+          </div>
+    </div>
+  </div>
+  <footer>
+    <!-- Github link goes here -->
+    <a href="https://github.com/RozarioGurraj/Rozario_WEB301_Assignments_F22/tree/Assignment-3" target="_blank">Rozario Gurraj Github</a>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html> <!-- End of index.html -->
